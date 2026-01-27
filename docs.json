@@ -79,6 +79,7 @@
         "tab": "Documentation",
         "groups": [
           {
+            "hidden":true,
             "group": "Get started",
             "pages": [
               "index",
