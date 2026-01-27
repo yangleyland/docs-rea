@@ -16,7 +16,7 @@ For multiline input, you can wrap text with `"""`:
 >>> """Hello,
 ... world!
 ... """
-I'm a basic program that prints the famous "Hello, world!" message to the console.
+I'm a basic program that prints a greeting message to the console.
 ```
 
 #### Multimodal models
@@ -28,13 +28,13 @@ ollama run gemma3 "What's in this image? /Users/jmorgan/Desktop/smile.png"
 ### Generate embeddings
 
 ```
-ollama run embeddinggemma "Hello world"
+ollama run embeddinggemma "Sample text"
 ```
 
 Output is a JSON array:
 
 ```
-echo "Hello world" | ollama run nomic-embed-text
+echo "Sample text" | ollama run nomic-embed-text
 ```
 
 ### Download a model
