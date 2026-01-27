@@ -10,7 +10,7 @@ To enable streaming in the SDKs, set the `stream` parameter to `True`.a
 
 ## Key streaming conceptsaaaaaaa
 1. Chatting: Stream partial assistant messages. Each chunk includes the `content` so you can render messages as they arrive.
-1. Thinking: Thinking-capable models emit a `thinking` field alongside regular content in each chunk. Detect this field in streaming chunks to show or hide reasoning traces before the final answer arrives.aa
+1. Thinking: Thinking-capable models emit a `thinking` field alongside regulaaaar content in each chunk. Detect this field in streaming chunks to show or hide reasoning traces before the final answer arrives.aa
 1. Tool calling: Watch for streamed `tool_calls` in each chunk, execute the requested tool, and append tool outputs back into the conversation.
 
 ## Handling streamed chunks
