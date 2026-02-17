@@ -32,9 +32,7 @@
     "codeblocks": "system"
   },
   "contextual": {
-    "options": [
-      "copy"
-    ]
+    "options": ["copy"]
   },
   "navbar": {
     "links": [
@@ -54,9 +52,7 @@
       "display": "simple"
     },
     "examples": {
-      "languages": [
-        "curl"
-      ]
+      "languages": ["curl"]
     }
   },
   "redirects": [
@@ -79,13 +75,9 @@
         "tab": "Documentation",
         "groups": [
           {
-            "hidden":true,
+            "hidden": true,
             "group": "Get started",
-            "pages": [
-              "index",
-              "quickstart",
-              "/cloud"
-            ]
+            "pages": ["index", "quickstart", "/cloud"]
           },
           {
             "group": "Capabilities",
@@ -118,6 +110,7 @@
             ]
           },
           {
+            "hidden": true,
             "group": "More information",
             "pages": [
               "/cli",
